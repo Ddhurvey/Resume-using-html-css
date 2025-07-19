@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: justify;
+}   
+
+html {
+    font-size:84.5%;
+}
+
+body {
+    font-family:poppins;
+}
+
+.wrapper {
+    max-width:1000px;
+    margin: 2rem auto;
+    font-family: poppins;
+    /* background-color: #E8FFD7; */
+}
+/* Header Section */
+header{
+    background-color:#93DA97;
+    height:200px;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    margin-block:2rem;
+}
+.name-and-role {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.header-image {
+    width:auto;
+    height:100%;
+    filter:grayscale(80%);
+    -webkit-filter:grayscale(80%);
+    /* border-inline:1rem solid white; */
+    border-radius:50%;
+}
+header h1{
+    font-size:40px;
+    display: inline;
+    color:#212f3d;
+}
+header h1 p{
+    font-size: 16px;
+    color:#2c3e50;
+}
+/* About section */
+div h1{
+    font-family: fantasy,serif,unset;
+}
+.about {
+    margin-block:2rem;
+    background-color: aliceblue;
+}
+.skills{
+    margin-block:2rem;
+    font-weight: 600;
+}
+.section{
+    background-color:#ADEED9;
+    border-radius:15px;
+}
+.skills-items{
+    
+    height:100px;
+    font-size: 1rem;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Skills */
+.skills{
+    margin-block:2rem;
+    background-color: aliceblue;
+}
+/* Contact */
+.contact-info{
+    margin-block:2rem;
+    background-color:#93DA97;
+    text-align:center;
+}
+/* Professional Experience */
+.experience{
+    margin-block:2rem;
+    background-color: aliceblue;
+}
